@@ -21,7 +21,7 @@ describe Numerics do
 
   it 'even test (false)' do
     assert {
-      Numerics.even?(101) == true
+      Numerics.even?(101) == false
     }
   end
 
