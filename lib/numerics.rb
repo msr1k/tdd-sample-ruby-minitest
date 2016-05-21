@@ -3,5 +3,9 @@ module Numerics
     num % 2 != 0
   end
 
-  module_function :odd?
+  def even?(num)
+    num % 2 != 1
+  end
+
+  module_function :odd?, :even?
 end
