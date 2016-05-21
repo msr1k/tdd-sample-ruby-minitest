@@ -9,7 +9,20 @@ describe Numerics do
 
   it '4' do
     assert {
-      Numerics.odd?(4) == true
+      Numerics.odd?(4) == false
     }
   end
+
+  it 'even test (true)' do
+    assert {
+      Numerics.even?(4) == true
+    }
+  end
+
+  it 'even test (false)' do
+    assert {
+      Numerics.even?(101) == true
+    }
+  end
+
 end
